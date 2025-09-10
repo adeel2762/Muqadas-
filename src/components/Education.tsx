@@ -4,10 +4,10 @@ import { GraduationCap, Calendar, MapPin } from 'lucide-react';
 const Education = () => {
   const education = [
     {
-      degree: 'Bachelors of Science in Computer Science',
-      school: 'FAST NUCES',
+      degree: 'Bachelors of Software Engineering',
+      school: 'Superior University',
       location: 'Lahore,PB',
-      period: '2022 - 2025',
+      period: '2022 - 2026',
       description: 'Specialized in Machine Learning and Artificial Intelligence. FYP on AI Powered Calibration Data Analyzer.',
       scoreType: 'CGPA',   // ✅ Added field
       score: '3.5/4.0',
