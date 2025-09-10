@@ -2,18 +2,20 @@ import React from 'react';
 import { Download, Eye, FileText, Award, Briefcase, GraduationCap } from 'lucide-react';
 
 // ✅ Import your PDF from src/assets
-import resumePDF from '../assets/SaifResume.pdf';
+
 
 const Resume = () => {
+
   const handleDownload = () => {
     const link = document.createElement('a');
-    link.href = resumePDF;
-    link.download = 'SaifResume.pdf';
+    link.href = '/MyResume.pdf';
+    link.download = 'MyResume.pdf';
     link.click();
   };
 
+
   const handlePreview = () => {
-    window.open(resumePDF, '_blank');
+    window.open('/MyResume.pdf', '_blank');
   };
 
   // ✅ Quick highlights
@@ -114,18 +116,19 @@ const Resume = () => {
             <div className="flex flex-col md:flex-row items-center space-y-4 md:space-y-0 md:space-x-6">
               <div className="w-24 h-24 rounded-full overflow-hidden border-4 border-white">
                 <img
-                  src="https://i.postimg.cc/g0bGDm2K/hero-imresizer.jpg"
+                  src=""
                   alt="Profile"
                   className="w-full h-full object-cover"
                 />
               </div>
               <div className="text-center md:text-left">
-                <h3 className="text-3xl font-bold">Syed Saif Ali</h3>
+                <h3 className="text-3xl font-bold">Muqadas</h3>
                 <p className="text-xl opacity-90">Creative Technologist</p>
                 <div className="flex flex-wrap justify-center md:justify-start gap-4 mt-2 text-sm">
-                  <span>herosaif000@gmail.com</span>
+                  <span>jannatfatima81622@gmail.com
+</span>
                   <span>•</span>
-                  <span>284-E Block PGECHS-2, College Road, Lahore</span>
+                  <span>Superior University Lahore</span>
                   <span>•</span>
                   <span>Pakistan</span>
                 </div>

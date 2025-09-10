@@ -28,7 +28,7 @@ const Footer = () => {
         <div className="grid md:grid-cols-3 gap-8">
           {/* Brand Section */}
           <div className="space-y-4">
-            <h3 className="text-2xl font-bold">Syed Saif Ali</h3>
+            <h3 className="text-2xl font-bold">Muqadas</h3>
             <p className="text-gray-400 leading-relaxed">
               Full-Stack Developer & AI/ML Enthusiast, passionate about creating 
               modern, scalable, and impactful digital solutions.
@@ -61,8 +61,8 @@ const Footer = () => {
             <h4 className="text-lg font-semibold">Get In Touch</h4>
             <div className="space-y-2 text-gray-400">
               <p>Lahore, Pakistan</p>
-              <p>herosaif000@gmail.com</p>
-              <p>0323-4653567</p>
+              <p>jannatfatima81622@gmail.com</p>
+              <p>03224799374</p>
             </div>
             <button
               onClick={() => scrollToSection('contact')}
@@ -76,7 +76,7 @@ const Footer = () => {
         {/* Bottom Section */}
         <div className="border-t border-gray-800 mt-8 pt-8 flex flex-col md:flex-row justify-between items-center">
           <p className="text-gray-400 text-sm">
-            © {currentYear} Syed Saif Ali. All rights reserved.
+            © {currentYear} Muqadas. All rights reserved.
           </p>
           
           <button

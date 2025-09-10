@@ -29,7 +29,7 @@ const handleSubmit = async (e: React.FormEvent) => {
     const { name, email, subject, message } = formData;
 
     // format WhatsApp link
-    const whatsappUrl = `https://wa.me/923234653567?text=${encodeURIComponent(
+    const whatsappUrl = `https://wa.me/923224799374?text=${encodeURIComponent(
       `Hello, my name is ${name}.
 Email: ${email}
 Subject: ${subject}
@@ -61,14 +61,14 @@ ${message}`
     {
       icon: <Mail className="w-6 h-6" />,
       title: 'Email',
-      content: 'herosaif000@gmail.com',
-      link: 'mailto:herosaif000@gmail.com'
+      content: 'jannatfatima81622@gmail.com',
+      link: 'mailto:jannatfatima81622@gmail.com'
     },
     {
       icon: <Phone className="w-6 h-6" />,
       title: 'Phone',
-      content: '0323-4653567',
-      link: 'tel:+923234653567'
+      content: '0322-4799374',
+      link: 'tel:+923224799374'
     },
     {
       icon: <MapPin className="w-6 h-6" />,
@@ -82,19 +82,19 @@ ${message}`
   {
     icon: <Linkedin className="w-6 h-6" />,
     name: 'LinkedIn',
-    url: 'https://www.linkedin.com/in/syed-saif-ali-4533b5323/', // ✅ your LinkedIn
+    url: '', // ✅ your LinkedIn
     color: 'hover:text-[#0A66C2]'
   },
   {
     icon: <Facebook className="w-6 h-6" />,
     name: 'Facebook',
-    url: 'https://www.facebook.com/syed.saif.ali.206411?rdid=KG8lx0WKKpqzVvQ5&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F1FkGqNoAVm%2F#', // update with your profile
+    url: '', // update with your profile
     color: 'hover:text-blue-600'
   },
   {
     icon: <Instagram className="w-6 h-6" />,
     name: 'Instagram',
-    url: 'https://www.instagram.com/saif_hero_007/?igsh=MTlpendzOWc2YWVlbg%3D%3D#', // update with your profile
+    url: '', // update with your profile
     color: 'hover:text-pink-500'
   }
 ];

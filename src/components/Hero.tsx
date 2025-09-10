@@ -61,11 +61,11 @@ const Hero = () => {
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <div className="flex flex-col items-center space-y-10 animate-fade-in-up">
           {/* Profile Image */}
-          <div className="w-32 h-32 sm:w-40 sm:h-40 md:w-48 md:h-48 rounded-full overflow-hidden border-4 border-white shadow-xl">
+          <div className="w-32 h-32 sm:w-40 sm:h-40 md:w-48 md:h-48 rounded-full overflow-hidden border-4 border-white shadow-xl mb-4">
             <img
-              src="https://i.postimg.cc/9XxHtSnJ/hero.jpg"
-              alt="Profile"
-              className="w-full h-full object-cover"
+              src="https://avatars.githubusercontent.com/u/9919?s=200&v=4"
+              alt="Avatar"
+              className="w-full h-full object-cover bg-white"
             />
           </div>
 
@@ -74,7 +74,7 @@ const Hero = () => {
             <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold text-white drop-shadow-lg">
               I'm{" "}
               <span className="bg-gradient-to-r from-green-300 to-green-500 bg-clip-text text-transparent">
-                Syed Saif Ali
+                Muqadas
               </span>
             </h1>
 
@@ -127,29 +127,28 @@ const Hero = () => {
           {/* Social Links */}
           <div className="flex justify-center space-x-6">
             <a
-              href="https://github.com/HeroCode007"
-              target="_blank"
-              rel="noopener noreferrer"
+              href=""
               className="group p-3 bg-black/60 rounded-full shadow-md hover:shadow-lg transform hover:scale-110 transition-all duration-200"
             >
               <Github className="w-6 h-6 text-green-400 group-hover:text-green-200" />
             </a>
             <a
-              href="https://www.linkedin.com/in/syed-saif-ali-4533b5323/"
-              target="_blank"
-              rel="noopener noreferrer"
+              href=""
               className="group p-3 bg-black/60 rounded-full shadow-md hover:shadow-lg transform hover:scale-110 transition-all duration-200"
             >
               <Linkedin className="w-6 h-6 text-green-400 group-hover:text-green-200" />
             </a>
             <a
-              href="mailto:herosaif000@gmail.com"
-              target="_blank"
-              rel="noopener noreferrer"
+              href="mailto:jannatfatima81622@gmail.com
+"
               className="group p-3 bg-black/60 rounded-full shadow-md hover:shadow-lg transform hover:scale-110 transition-all duration-200"
             >
               <Mail className="w-6 h-6 text-green-400 group-hover:text-green-200" />
             </a>
+          {/* Phone Number */}
+          <div className="mt-4 text-green-300 text-lg font-semibold">
+            03224799374
+          </div>
           </div>
         </div>
 
