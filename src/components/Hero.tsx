@@ -146,9 +146,7 @@ const Hero = () => {
               <Mail className="w-6 h-6 text-green-400 group-hover:text-green-200" />
             </a>
           {/* Phone Number */}
-          <div className="mt-4 text-green-300 text-lg font-semibold">
-            03224799374
-          </div>
+        
           </div>
         </div>
 
