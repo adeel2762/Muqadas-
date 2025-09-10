@@ -10,7 +10,7 @@ const Education = () => {
       period: '2022 - 2026',
       description: 'Specialized in Machine Learning and Artificial Intelligence. FYP on AI Powered Calibration Data Analyzer.',
       scoreType: 'CGPA',   // ✅ Added field
-      score: '3.5/4.0',
+      score: '3.2/4.0',
       achievements: ["Dean's List"]
     },
     {

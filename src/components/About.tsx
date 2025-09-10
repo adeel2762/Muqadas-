@@ -17,7 +17,7 @@ const About = () => {
             About Me
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-"Passionate CS developer with a knack for creating innovative solutions."
+"Passionate Software developer with a knack for creating innovative solutions."
           </p>
         </div>
 
